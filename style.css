@@ -1,0 +1,50 @@
+                  
+@font-face {
+    font-family: 'yekan';
+    src: url('fonts/Yekan\ Bakh\ FA\ 04\ Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/YekanBakh-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  
+}
+  
+*{
+    margin:0
+}
+  
+body{
+  
+    background-color:#274390;
+    font-family: yekan; 
+}
+  
+.formContainer{
+    margin-top: 120px;
+              
+}
+  
+.formTitle{
+    text-align:center;
+    color: #274390;
+}
+  
+#calcBtn{
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+input{
+    margin-top: 20px;
+}
+  
+/* For mobile phones: */
+.form-control {
+    font-size: 0.55rem
+          }
+  
+@media only screen and (min-width: 500px) {
+/* For desktop: */
+.form-control {
+    font-size: 1rem
+}
+}
